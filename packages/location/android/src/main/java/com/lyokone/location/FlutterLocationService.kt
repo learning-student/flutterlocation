@@ -60,7 +60,7 @@ class BackgroundNotification(
         } else {
             null
         }
-        }
+
     }
 
     private fun updateChannel(channelName: String) {
