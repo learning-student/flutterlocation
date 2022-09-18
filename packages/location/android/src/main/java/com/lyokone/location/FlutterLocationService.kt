@@ -108,6 +108,7 @@ class BackgroundNotification(
         }
     }
 
+
     fun updateOptions(options: NotificationOptions, isVisible: Boolean) {
         if (options.channelName != this.options.channelName) {
             updateChannel(options.channelName)
