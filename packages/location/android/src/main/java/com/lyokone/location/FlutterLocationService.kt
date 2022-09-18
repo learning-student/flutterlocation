@@ -238,7 +238,7 @@ class FlutterLocationService : Service(), PluginRegistry.RequestPermissionsResul
                 isForeground = true
             }
        }catch(e: Exception){
-         Log.d(TAG, "Exception onf enableBackgroundMode :" + e.toString());
+         Log.d(TAG, "Exception of enableBackgroundMode :" + e.toString());
        }
     }
 
